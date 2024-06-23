@@ -1,0 +1,21 @@
+:host {
+  display: flex;
+  padding: 80px 24px 0 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  line-height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #98A2B3;
+
+  &.active {
+    color: #FFFFFF;
+  }
+}
